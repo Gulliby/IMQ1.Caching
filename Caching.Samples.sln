@@ -15,6 +15,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CachingSolutionsSamples", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthwindLibrary", "Application\NorthwindLibrary\NorthwindLibrary.csproj", "{83072721-060E-4738-9ABD-7711C4F07ED2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fibonacci", "Fibonacci", "{17D8D960-79CE-4899-99CB-73726CF88E02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMQ1.Caching.Fibonacci.Library", "IMQ1.Caching.Fibonacci.Library\IMQ1.Caching.Fibonacci.Library.csproj", "{3B97747E-077A-46C2-B97C-31BEFACE3EAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMQ1.Caching.Fibonacci.Executor", "IMQ1.Caching.Fibonacci.Executor\IMQ1.Caching.Fibonacci.Executor.csproj", "{4C3ACD29-FFEA-4886-8A4A-955DF542B999}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +43,14 @@ Global
 		{83072721-060E-4738-9ABD-7711C4F07ED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83072721-060E-4738-9ABD-7711C4F07ED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83072721-060E-4738-9ABD-7711C4F07ED2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B97747E-077A-46C2-B97C-31BEFACE3EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B97747E-077A-46C2-B97C-31BEFACE3EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B97747E-077A-46C2-B97C-31BEFACE3EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B97747E-077A-46C2-B97C-31BEFACE3EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C3ACD29-FFEA-4886-8A4A-955DF542B999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C3ACD29-FFEA-4886-8A4A-955DF542B999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C3ACD29-FFEA-4886-8A4A-955DF542B999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C3ACD29-FFEA-4886-8A4A-955DF542B999}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,5 +60,7 @@ Global
 		{418D97E7-D866-4816-BCE9-F58FFCF14445} = {CAAEDEA0-BA20-42BB-B71D-202CAA65476E}
 		{A4A4F6AE-04DA-439D-BFAD-BC373D9C869C} = {217A558F-69D5-4C38-97D3-DC5313DF8301}
 		{83072721-060E-4738-9ABD-7711C4F07ED2} = {217A558F-69D5-4C38-97D3-DC5313DF8301}
+		{3B97747E-077A-46C2-B97C-31BEFACE3EAC} = {17D8D960-79CE-4899-99CB-73726CF88E02}
+		{4C3ACD29-FFEA-4886-8A4A-955DF542B999} = {17D8D960-79CE-4899-99CB-73726CF88E02}
 	EndGlobalSection
 EndGlobal
